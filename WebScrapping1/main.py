@@ -10,7 +10,7 @@ def find_jobs():
     html_text = requests.get('https://www.timesjobs.com/candidate/job-search.html?searchType=personalizedSearch&from=submit&txtKeywords=python&txtLocation=').text
     soup = BeautifulSoup(html_text, 'lxml')
     jobs = soup.find_all('li', class_ = 'clearfix job-bx wht-shd-bx')
-    for job in jobs:
+    for index, job in enumerate(jobs):
         published_date = job.find('span', class_='sim-posted').span.text
 
         if 'few' in published_date:
@@ -20,11 +20,12 @@ def find_jobs():
             soup1 = BeautifulSoup(more_info_request, 'lxml')
             descriptions_of_job = soup1.find('div', class_='jd-desc job-description-main').text.replace('  ', '')
             if unfamiliar_skill not in skills:
-                print(f'Company Name: {company_name.strip()}')
-                print(f'Required Skills: {skills.strip()}')
-                print(f'More info: {descriptions_of_job}')
-                print('')
+                with open(f'posts/{index}.txt', 'w') as f:
 
+                    print(f'Company Name: {company_name.strip()}')
+                    print(f'Required Skills: {skills.strip()}')
+                    print(f'More info: {descriptions_of_job}')
+                   
 if __name__ == '__main__':
     while True:
         find_jobs()
