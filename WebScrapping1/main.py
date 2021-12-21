@@ -22,10 +22,10 @@ def find_jobs():
             if unfamiliar_skill not in skills:
                 with open(f'posts/{index}.txt', 'w') as f:
 
-                    print(f'Company Name: {company_name.strip()}')
-                    print(f'Required Skills: {skills.strip()}')
-                    print(f'More info: {descriptions_of_job}')
-                   
+                    f.write(f'Company Name: {company_name.strip()}')
+                    f.write(f'Required Skills: {skills.strip()}')
+                    f.write(f'More info: {descriptions_of_job}')  
+                print(f'File saved: {index}')
 if __name__ == '__main__':
     while True:
         find_jobs()

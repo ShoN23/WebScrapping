@@ -1,0 +1,4 @@
+Company Name: Gemini SolutionsRequired Skills: python,mobile,svn,nosql,python scripting,git,api,sql databaseMore info: 
+Job Description
+		4Years GurgaonB.TechRequired Skills 4 years of software quality assurance experienceExperience on creating Framework For Test Automation.Good knowledge of Python Scripting (Mandatory).Knowledge of Working with SQL Database is mandatory.Experience on working on Version Control Tools like Svn or GitExperience on working with CICDCT and Build tools like Gitlab or JenkinsKnowledge of NoSql will be plusStrong interpersonal and client handling skillsAbility to work independently and as part of a team.Good Communication skills
+	

@@ -1,0 +1,4 @@
+Company Name: TECHNOPARK TRIVANDRUMRequired Skills: python,oops,storageMore info: 
+Job Description
+		Writing reusable code in the python programming languageDesign and implementation of low-latency, high-availability, and performant applicationsIntegration of user-facing elements with the server-sideIntegration of data storage solutionsPreferred skills2years of relevant experience in python programmingExpert knowledge of python and related frameworksUnderstanding of multi-process architecture and the threading limitations of pythonKnowledge of user authentication and authorization between multiple systems, servers, and environments.Familiarity with the OOPs conceptUnderstanding of code versioning toolsApplicants, please forward your resume to the mail address career@ibosoninnov.com with the subject line Python Developer.
+	
